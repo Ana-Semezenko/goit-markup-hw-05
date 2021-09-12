@@ -668,7 +668,6 @@ header {
   position: relative;
   overflow: hidden;
 }
-
 .models-item:hover .model-text {
   transform: translateY(0);
 }
@@ -726,16 +725,13 @@ header {
 .models-item {
   width: 380px;
 }
-.models-info {
+.models-link {
+  display: block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.models-link:hover .models-info,
-.models-link:focus .models-info {
-  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
-
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
-
-  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+.models-link:hover,
+.models-link:focus {
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
 }
 .backdrop {
   position: fixed;
